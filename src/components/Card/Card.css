@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border-radius: 12px;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, .8);
+  box-shadow: 0 0 30px 4px rgba(227, 227, 227, .9);
+  overflow: hidden;
+}
+
+.card__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./images/loon-image-high.jpg');
+}
+
+.card__main {
+  width: 100%;
+  backdrop-filter: blur(3px);
+  padding: 20px 10px;
+  z-index: 5;
+}
+
+.card__name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.card__temperature {
+  text-align: center;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+  text-shadow: none;
+  margin-bottom: 30px;
+}
+
+.card__list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  max-width: 260px;
+}
+
+.card__list-item {
+  font-size: 14px;
+}
+
+.card__list-item + .card__list-item {
+  margin-top: 5px;
+}
+
+.card__list-item span {
+  float: right;
+  font-size: 16px;
+}
