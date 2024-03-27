@@ -1,0 +1,16 @@
+.search-result {
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+  max-height: 330px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.search-result__item {
+  text-overflow: ellipsis;
+}
+
+.search-result__item + .search-result__item {
+  margin-top: 5px;
+}

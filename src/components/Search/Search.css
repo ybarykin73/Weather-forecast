@@ -1,13 +1,21 @@
 .search {
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
   padding: 7px 7px 7px 20px;
   border-radius: 33px;
   background-color: rgba(255, 255, 255, .1);
   border: 1px solid rgba(255, 255, 255, .3);
   box-shadow: 0 0 20px 4px rgba(227, 227, 227, .9);
   backdrop-filter: blur(2px);
+}
+
+.search__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 .search__input {
@@ -40,4 +48,9 @@
 .search__button svg {
   pointer-events: none;
   fill: rgba(255, 255, 255, 1);
+}
+
+.search__list {
+  max-height: 200px;
+  overflow-x: auto;
 }
