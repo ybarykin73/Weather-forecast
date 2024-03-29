@@ -1,7 +1,4 @@
 .card {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
   border-radius: 12px;
   position: relative;
   border: 2px solid rgba(255, 255, 255, .8);
@@ -15,14 +12,13 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url('./images/loon-image-high.jpg');
+  background-size: cover;
 }
 
 .card__main {
   width: 100%;
-  backdrop-filter: blur(3px);
-  padding: 20px 10px;
-  z-index: 5;
+  backdrop-filter: blur(1.5px);
+  padding: 70px 10px;
 }
 
 .card__name {
@@ -32,11 +28,13 @@
   color: #fff;
   margin: 0;
   margin-bottom: 20px;
+  background-color: rgba(61, 61, 61, .3);
+  border-radius: 8px;
 }
 
 .card__temperature {
   text-align: center;
-  font-size: 55px;
+  font-size: 70px;
   text-transform: uppercase;
   font-weight: bold;
   color: transparent;
@@ -44,17 +42,29 @@
   text-stroke: 1px #fff;
   text-shadow: none;
   margin-bottom: 30px;
+
+}
+
+.card__temperature sup {
+font-size: 40px;
+}
+
+.card__temperature span {
+  font-size: 40px;
 }
 
 .card__list {
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  max-width: 260px;
+  max-width: 300px;
 }
 
 .card__list-item {
   font-size: 14px;
+  padding: 5px 10px;
+  background-color: rgba(61, 61, 61, .3);
+  border-radius: 8px;
 }
 
 .card__list-item + .card__list-item {
