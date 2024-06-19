@@ -1,10 +1,10 @@
 import React from 'react'
 
-import MainContext from '../../context/MainContext'
+import MainContext from '../../../context/MainContext'
 
 import './SearchResult.css'
 
-import cityList from '../../json/city.list.json'
+import cityList from '../../../json/city.list.json'
 
 const SearchResult = ({query}) => {
 
@@ -26,7 +26,7 @@ const SearchResult = ({query}) => {
         list.map(item => {
           return (
             <li key={item.id} className='search-result__item'>
-              <button 
+              <button
                 onClick={() => setId(item.id)}
                 className='search-result__button'
               >

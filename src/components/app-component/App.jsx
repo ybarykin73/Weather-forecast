@@ -1,13 +1,18 @@
 import React from "react"
 
+import SearchContextProvider from "../../context/SearchContext"
+
 import './App.css'
 
 import Main from "../Main/Main"
 const App = () => {
-  
-  return (  
+
+  return (
     <div className="body">
-      <Main />
+      <SearchContextProvider>
+        <Main />
+
+      </SearchContextProvider>
     </div>
   )
 }

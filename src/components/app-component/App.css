@@ -1,11 +1,8 @@
 .body {
   width: 100%;
   height: 100vh;
-  background-image: url('./World-map.jpg');
+  padding: 20px 15px;
+  background-image: url('../../assets/images/background.png'), linear-gradient(#352163,#331972 58%, #33143C 100%);
   background-position: center;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
 }

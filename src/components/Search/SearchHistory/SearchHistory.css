@@ -1,0 +1,13 @@
+.search-history {
+  padding-top: 60px;
+}
+
+.search-history__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-history__list-item + .search-history__list-item {
+  margin-top: 40px;
+}
