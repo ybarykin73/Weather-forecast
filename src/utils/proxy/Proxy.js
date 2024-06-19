@@ -27,4 +27,8 @@ export default class Proxy {
   size () {
     return this.proxyCache.size
   }
+
+  values () {
+    return [...this.proxyCache.values()]
+  }
 }
