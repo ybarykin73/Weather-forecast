@@ -3,34 +3,26 @@
 }
 
 @font-face {
-  font-family: 'Unbounded';
-  src: url('./assets/fonts/Unbounded-Regular.ttf');
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Unbounded';
-  src: url('./assets/fonts/Unbounded-Light.ttf');
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Unbounded';
-  src: url('./assets/fonts/Unbounded-Medium.ttf');
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Medium.ttf');
   font-style: normal;
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Unbounded';
-  src: url('./assets/fonts/Unbounded-Bold.ttf');
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-SemiBold.ttf');
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
 }
 
@@ -42,6 +34,6 @@
 
 body {
   margin: 0;
-  font-family: Unbounded, serif;
+  font-family: Poppins, serif;
   color: #fff;
 }
